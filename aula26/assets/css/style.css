@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+:root {
+    --primary-color: #05aa3fd3;
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: 1.3em;
+    list-style: 1.5em;
+    border-radius: 20px;
+    border: 2px solid rgba(184, 79, 26, 0.492);
+}
+
+h1 {
+    color: rgb(83, 13, 187);
+    text-align: center;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 45%;
+}
+
+form {
+    text-align: center;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    background: rgb(123, 63, 9);
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    height: 50px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+form input:focus {
+    outline:  1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    border-radius: 10px;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 100px;
+    cursor: pointer;
+    background-image: url('../img/20240512_210617.png');
+}
+
+form button:hover {
+     background: rgb(4, 58, 125);
+}

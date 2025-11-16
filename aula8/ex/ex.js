@@ -1,1 +1,0 @@
-console.log(`My name is "Luan". and I'm a JavaScript professional`);
