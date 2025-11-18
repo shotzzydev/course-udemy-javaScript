@@ -18,3 +18,4 @@
 const string  = "eae ";
 console.log(string.indexOf('e'));
 console.log(string.lastIndexOf('e'));
+
