@@ -17,10 +17,10 @@ console.log('Linha 4');
 // Ser Ignorado
 
 
-// E escrever um comentario
-console.log(`Ola mundo`); // Aqui tem outro comentario
-// Comentario
-console.log(`Linha 1`);
+// // E escrever um comentario
+// console.log(`Ola mundo`); // Aqui tem outro comentario
+// // Comentario
+// console.log(`Linha 1`);
 
 /** 
  * Um titulo
@@ -39,3 +39,10 @@ console.log(`Linha 4`);
 
 
 
+
+
+const a = 1
+
+for(let i = 0; i = 1;) {
+    console.log("eae")
+}
